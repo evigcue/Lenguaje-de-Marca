@@ -1,0 +1,47 @@
+/*Esto es un comentario*/
+body{
+    background-color: aquamarine;
+}
+.red{
+    background-color: olivedrab;
+    text-align: center;
+}
+.bd{
+    background-color: orange;
+    text-align: center;
+}
+.iso{
+    background-color: rgb(176, 176, 176);
+    text-align: center;
+}
+.lm{
+    background-color: blueviolet;
+    text-align: center;
+}
+.fh{
+    background-color: yellow;
+    text-align: center;
+}
+.fol{
+    background-color: rgb(81, 81, 217);
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+th{
+    background-color: beige;
+}
+table{
+    border: 2px solid;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+}
+img{
+    width: 40%;
+    height: 60%;
+}
