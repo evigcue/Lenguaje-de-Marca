@@ -1,0 +1,29 @@
+table, td, tr, th, thead{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+h3{
+    text-align: left;
+}
+*{
+    text-align: center;
+}
+.n{
+    font-weight: bold;
+}
+td, th{
+    width: 10%;
+    height: 1cm;
+}
+thead, tfoot{
+    background-color: lightcyan;
+}
+th{
+    background-color: lightblue;
+}
+tbody{
+    background-color: beige;
+}
+.titulillo{
+    background-color: lightcyan;
+}

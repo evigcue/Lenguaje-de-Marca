@@ -1,0 +1,11 @@
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.t{
+    color: black;
+    text-decoration: line-through;
+}
+.s{
+    color: black;
+}
