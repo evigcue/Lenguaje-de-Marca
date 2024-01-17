@@ -1,7 +1,13 @@
 *{
     background-color: rgb(177, 255, 255);
 }
-fieldset{
+fieldset, label, select, option, p, span{
     width: max-content;
-    background-color: aqua;
+    background-color: beige;
+}
+input{
+    background-color: white;
+}
+button{
+    background-color: lightgray;
 }
