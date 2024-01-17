@@ -1,0 +1,10 @@
+*{
+    background-color: beige;
+    text-align: center;
+}
+input, textarea, select{
+    background-color: white;
+}
+div{
+    margin-left: 40%;
+}

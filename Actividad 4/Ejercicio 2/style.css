@@ -1,0 +1,25 @@
+fieldset, label{
+    background-color: beige;
+}
+*{
+    background-color: lightcyan;
+}
+input, select, option{
+    background-color: white;
+}
+legend{
+    border: 1px solid;
+    background-color: lightgoldenrodyellow;
+}
+fieldset{
+    width: max-content;
+}
+button{
+    background-color: lightgray;
+}
+h2{
+    text-align: center;
+}
+div{
+    margin-left: 39%;
+}

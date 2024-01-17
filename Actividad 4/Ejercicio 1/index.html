@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios_evc</title>
+    <link rel="shortcut icon" href="favicon_evc.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form action="pagina.php">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Manuel">
+        <br>
+        <br>
+        <label for="apellido">Apellidos</label>
+        <input type="text" placeholder="Ruiz">
+        <br>
+        <br>
+        <label for="">Email:</label>
+        <input type="text" placeholder="ejemplo@gmail.com">
+        <br>
+        <br>
+        <label for="">Provincia:</label>
+        <input type="text">
+        <br>
+        <br>
+        <div>
+        <table>
+            <tr>
+                <td>
+                    <label for="">Edad:</label>
+                    <br>
+                    <input type="radio" name="edad" id="20">
+                    <label for="20">0-20</label>
+                    <br>
+                    <input type="radio" name="edad" id="40"> 
+                    <label for="40">21-40</label>
+                    <br>
+                    <input type="radio" name="edad" id="60">
+                    <label for="60">41-60</label>
+                    <br>
+                    <input type="radio" name="edad" id="+e">
+                    <label for="+e">+60</label>
+                    <br>
+                </td>
+                <td></td>
+                <td>
+                    <label for="">¿Qué idiomas puedes hablar? (exceptuando el español)</label>
+                    <br>
+                    <input type="checkbox" name="" id="eng">
+                    <label for="eng">Inglés</label>
+                    <br>
+                    <input type="checkbox" name="" id="fr">
+                    <label for="fr">Francés</label>
+                    <br>
+                    <input type="checkbox" name="" id="por">
+                    <label for="por">Portugués</label>
+                    <br>
+                    <input type="checkbox" name="" id="it">
+                    <label for="it">Italiano</label>
+                    <br>
+                    <input type="checkbox" name="" id="ger">
+                    <label for="ger">Alemán</label>
+                    <br>
+                    <input type="checkbox" name="" id="otro">
+                    <label for="otro">Otros</label>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <label for="">¿Tiene alguna sugerencia para esta página?</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <label for="">¿Cuánto navegas por internet? (Contando aplicaciones como las redes sociales)</label>
+        <br>
+        <select name="" id="" size="3">
+            <option value="2"> cerca de 2 horas al día</option>
+            <option value="4"> cerca de 4 horas al día</option>
+            <option value="+h"> más de 4 horas al día</option>
+        </select>
+        
+    </form>
+</body>
+</html>

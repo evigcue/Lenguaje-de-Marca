@@ -4,7 +4,11 @@ table, th, tr, td{
     text-align: center;
     width: auto;
     background-color: lightcyan;
+    
 }
 td{
     height: 1cm;
+}
+body{
+    background-color: lightgrey;
 }
