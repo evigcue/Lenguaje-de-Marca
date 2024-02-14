@@ -1,0 +1,41 @@
+*{
+    background-color: bisque;
+}
+h1{
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: burlywood;
+}
+.intro{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: normal;
+}
+cite{
+    text-decoration: underline;
+}
+.latin{
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    font-size: x-large;
+    color: goldenrod;
+}
+.espanol{
+    margin: auto;
+    color: rebeccapurple;
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    letter-spacing: normal;
+    text-align: right;
+}
