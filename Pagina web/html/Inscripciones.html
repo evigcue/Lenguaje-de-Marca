@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripciones</title>
+    <link rel="stylesheet" href="../css/inscripciones.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../src/favicon.png" alt="Logo Academia Jose" width="70">
+                    <span>Academia Jose</span>
+                </a>
+            </div>
+            <h1>Inscripciones</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="./html/cursos.html">Cursos</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+
+        <main>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="curso">Curso de interés:</label>
+                <select id="curso" name="curso" required>
+                    <option value="">Selecciona un curso</option>
+                    <option value="Fundamentos de Informática">Fundamentos de Informática</option>
+                    <option value="Diseño Web">Diseño Web</option>
+                    <option value="Programación en Python">Programación en Python</option>
+                    <!-- Agrega más opciones según los cursos disponibles -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje adicional:</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <h6>&copy; 2024 Academia Jose. Todos los derechos reservados.</h6>
+    </footer>
+</body>
+</html>

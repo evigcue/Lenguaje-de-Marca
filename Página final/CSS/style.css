@@ -15,10 +15,11 @@ body{
 /*Ajustes para el header*/
 
 header{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     text-shadow: 0.2rem 0.15rem 0.1rem #9B3922;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 1.5rem;
 
     nav ul{
         text-transform: none;
@@ -36,7 +37,7 @@ header{
     img{
         display: inline;
         text-align: right;
-        width: 10%;
+        width: 4rem;
     }
 
     a{
@@ -50,6 +51,19 @@ header{
     border: solid 0.1rem black;
     box-shadow: black 0.3rem 0.2rem 0.8rem, inset 0px 0px 10px #222831;
     /* margin-bottom: 3vh; */
+}
+
+/*Tabla*/
+
+table{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+table, td, tr{
+    background-color: lightgray;
+    border: black solid;
+    border-collapse: collapse;
 }
 
 /* Ajustes para noticias*/
@@ -118,6 +132,31 @@ ul.generos{
         display: inline-flex;
     }
 }
+/*
+.carrusel{
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.carrusel img{
+    flex: 0 0 100%;
+    width: 2rem;
+    object-fit: cover;
+}
+
+.item{
+    scroll-snap-align: center;
+}
+*/
+
+/**/
+
+.mapa{
+    border: 0;
+    width: 50vw;
+    height: 45vh;
+}
 
 /* Ajustes para el footer */
 
@@ -150,15 +189,30 @@ footer{
 @media screen and (max-width: 790px) {
     nav ul.navbar{
         display: none;
+        position: absolute;
+        background: #444;
+        left: 0;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 790px) {
-    nav button{
+    nav img{
         display: none;
     }
 }
+/* Por debajo de 380px el titulo se sale del panel*/
 
-/* Por debajo de 395px el titulo se sale del panel*/
+@media screen and (max-width: 380px) {
+    header h1{
+        font-size: 2.5rem;
+    }
+}
 
+/*Por debajo de 415px el mapa se estira en exceso*/
+@media screen and (max-width: 820px) {
+    .mapa{
+        width: 60vw;
+    }
+}
 /*Debajo de 646 el botón se rompe por ser muy grande, también debo ajustar el tamaño*/

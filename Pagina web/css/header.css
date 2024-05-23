@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilos para los botones */
+
+.button-like {
+
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #154da8; /* Color del botón */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+/* Estilos para cambiar el color del botón al pasar el mouse */
+.button-like:hover {
+  background-color: #8e177e; /* Cambia al color que desees */
+}
+
+nav{
+
+  /* Estilos para quitar el marcador de lista */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Estilos para hacer que los elementos li estén en línea */
+  ul li {
+    display: inline-block;
+    margin-top: 4%;
+  }
+}
+
+/* Estilos para el header */
+header {
+  background-color: #154da8; /* Color de fondo del header */
+  padding: 10px 0; /* Espaciado interno del header */
+
+  div a{
+    width: min-content;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 8.5rem;
+    height: auto;
+    margin-right: 0.5rem;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  } 
+}
+
+.tit {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  nav ul li{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 663px) {
+  ul.navbar{
+    display: none;
+  }
+
+  img.navbutton{
+    width: 8rem;
+    display: flex;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 664px) {
+  img.navbutton{
+    display: none;
+  }
+}
