@@ -78,7 +78,7 @@ img.noticia{
 /* Ajustes para formularios */
 
 form{
-    width: 50%;
+    width: 100%;
 }
 
 label{
@@ -141,6 +141,7 @@ ul.generos{
     overflow-x: scroll;
     display: flex;
     width: 100%;
+    max-width: 120em;
 
     img{
         scroll-snap-align: center;
@@ -186,17 +187,19 @@ footer{
     }
 }
 
-@media screen and (max-width: 790px) {
+/* Barra de navegación responsive */
+
+@media screen and (max-width: 879px) {
     nav ul.navbar{
         display: none;
         position: absolute;
         background: #444;
-        left: 0;
         width: 100%;
     }
 }
 
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 880px) {
+    /* Esto es el botón de navegación */
     nav img{
         display: none;
     }
@@ -218,8 +221,3 @@ footer{
 /*Debajo de 646 el botón se rompe por ser muy grande, también debo ajustar el tamaño*/
 
 /*A partir de 650px la imagen del carrusel es demasiado grande*/
-@media screen and (min-width: 650px) {
-    .carrusel img{
-        size: 50%;
-    }
-}
