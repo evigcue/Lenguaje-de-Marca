@@ -72,6 +72,9 @@ ul.noticieros{
     margin-left: 2rem;
 }
 
+img.noticia{
+    width: 50%;
+}
 /* Ajustes para formularios */
 
 form{
@@ -132,23 +135,20 @@ ul.generos{
         display: inline-flex;
     }
 }
-/*
+
 .carrusel{
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
     display: flex;
-}
+    width: 100%;
 
-.carrusel img{
-    flex: 0 0 100%;
-    width: 2rem;
-    object-fit: cover;
+    img{
+        scroll-snap-align: center;
+        flex: 0 0 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }
-
-.item{
-    scroll-snap-align: center;
-}
-*/
 
 /**/
 
@@ -216,3 +216,10 @@ footer{
     }
 }
 /*Debajo de 646 el botón se rompe por ser muy grande, también debo ajustar el tamaño*/
+
+/*A partir de 650px la imagen del carrusel es demasiado grande*/
+@media screen and (min-width: 650px) {
+    .carrusel img{
+        size: 50%;
+    }
+}
