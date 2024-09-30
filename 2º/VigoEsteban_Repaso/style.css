@@ -1,0 +1,43 @@
+*{
+    background-color: aquamarine;
+}
+
+image{
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    max-width: 50%;
+}
+
+table, tr, td, th{
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding-left: 1vh;
+}
+
+form{
+    border: 2px solid #000000;
+    padding: 1vh 0vh 1vh 2vh;
+}
+
+form label{
+    font-weight: bold;
+}

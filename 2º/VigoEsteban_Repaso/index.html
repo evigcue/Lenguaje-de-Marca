@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Esteban Vigo Cuenca">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon_evc.ico" type="image/x-icon">
+    <title>Repaso_evc</title>
+</head>
+<body>
+    <header>
+        <img src="League-of-Legends-Logo-2008.png" alt="League of Legends title" style="width: 300px; height: auto">
+        <h3>Bienvenido a mi página para conocimientos básicos del juego</h3>
+        <p>Aquí trataremos de poner conceptos de lo más básico a más avanzados para quien quiera entrar al juego</p>
+        <nav>
+            <h2>Indice</h2>
+            <ul>
+                <li><a href="#posiciones">Posiciones</a></li>
+                <li><a href="#concepts">Conceptos generales</a></li>
+                <li><a href="#avanzado">Siguiente nivel</a></li>
+                <li><a href="#form">Sugerencias</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <h2 id="posiciones">Posiciones</h2>
+        <p>Empezaremos viendo las posiciones del juego de arriba a abajo, cabe decir que los campeones y sus builds dependen de la región, en nuestro caso EUW</p>
+        <ul>
+            <li>
+                <strong>Toplane</strong>
+                <table>
+                    <tr>
+                      <th>Rol:</th>
+                      <th>Campeones comunes:</th>
+                    </tr>
+                    <tr>
+                      <td>Tanque, Luchador</td>
+                      <td>Aatrox, Garen, Vladimir, Darius, Camille</td>
+                    </tr>
+                  </table>
+            </li>
+            <li>Jungla</li>
+            <li>Midlane</li>
+            <li>Botlane</li>
+            <li>Support</li>
+        </ul>
+        <h2 id="concepts">Conceptos generales</h2>
+            <ul>
+                
+                <li>Daños</li>
+                    <ul>
+                        <li>Daño de ataque (AD)</li>
+                            <p>Este es el llamado físico o naranja, este es el daño de los ataques normales del campeón y también es el de algunas habilidades. Este es bloqueado mediante la armadura(escudo amarillo), concepto que veremos en los objetos.</p>
+                        <li>Poder de ataque (AP)</li>
+                            <p>Este es el daño mágico o morado, es el que hacen las habilidades de los campeones magos como puede ser Ahri. Se bloquea con resistencia mágica(circulo azul)</p>
+                        <li>Daño crítico</li>
+                            <p>Este no deja de ser daño físico pero multiplicado, es el mejor amigo de los adc pues se basan en el mismo al ser personajes destinados a los básicos.</p>
+                        <li>Daño verdadero</li>
+                            <p>Este es el daño blanco. Se caracteriza por ser un daño dificil de ver y ser el más fuerte de todos pues su nombre viene de ser un daño imposible de reducir mediante stats.</p>
+                    </ul>
+                    <li>Objetos</li>
+                    <li>Runas</li>
+                        <ul>
+                            <p>Las dividiremos en los grupos de runas del propio juego</p>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+            </ul>
+        <h2 id="avanzado">Siguiente nivel</h2>
+        <h3>Control de oleadas</h3>
+        <p>Para esto tenemos un video explicativo muy bueno</p>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zUngFuw2U9g?si=WzOxnYvxEOrPEdD6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Control de oleadas Werlyb</iframe>
+        <h2 id="form">Sugerencias</h2>
+        <form action="formsugerencias.php" method="post" for="sugerencias">
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" placeholder="Paco Vega Ruiz" required>
+            <br>
+            <br>
+            <label for="email">Correo electrónico:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+            <br>
+            <br>
+            <label for="pais">País</label>
+            <br>
+            <input type="radio" name="pais"> España
+            <br>
+            <input type="radio" name="pais"> Mexico
+            <br>
+            <input type="radio" name="pais"> Argentina
+            <br>
+            <br>
+            <label for="recomendacion">Tu recomendación:</label>
+            <br>
+            <textarea id="recomendacion" name="recomendacion" rows="5" required></textarea>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+    <footer>
+
+    </footer>
+</body>
+</html>
